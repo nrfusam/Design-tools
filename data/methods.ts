@@ -62,7 +62,7 @@ export const methods = [
   },
   {
     id: 2,
-    name: "用户旅程图",
+    name: "用户旅程图userjourney",
     description: "对用户实现目标过程的可视化表示，展示每个接触点的用户体验。",
     phase: "研究",
     timeRequired: "2-4小时",

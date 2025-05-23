@@ -11,7 +11,8 @@ export default function Home() {
       <section className="relative w-full py-48 md:py-64 lg:py-80 overflow-hidden">
           <div className="absolute inset-0 z-0">
             <iframe src='https://my.spline.design/particleaibrain-nmZWxNnMS4PnuUPrPdOHYjMz/' frameBorder='0' width='100%' height='100%'></iframe>
-          
+            {/* 黑色遮罩层覆盖右下角按钮 */}
+            <div className="absolute bottom-0 right-0 w-40 h-16 z-10 pointer-events-none" style={{backgroundColor: '#121316'}}></div>
           </div>
           <div className="container relative z-10 px-4 md:px-6">
             <div className="mx-auto max-w-3xl text-center">

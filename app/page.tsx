@@ -10,14 +10,8 @@ export default function Home() {
       <main className="flex-1">
       <section className="relative w-full py-48 md:py-64 lg:py-80 overflow-hidden">
           <div className="absolute inset-0 z-0">
-            <Image
-              src="/hero2.png"
-              alt="Design Navigator Background"
-              fill
-              className="object-cover"
-              priority
-            />
-            <div className="absolute inset-0 bg-black/50 dark:bg-black/70"></div>
+            <iframe src='https://my.spline.design/particleaibrain-nmZWxNnMS4PnuUPrPdOHYjMz/' frameBorder='0' width='100%' height='100%'></iframe>
+          
           </div>
           <div className="container relative z-10 px-4 md:px-6">
             <div className="mx-auto max-w-3xl text-center">

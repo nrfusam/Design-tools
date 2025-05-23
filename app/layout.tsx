@@ -11,7 +11,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "设计导航 - AI驱动的设计方法与工具",
   description: "通过AI推荐发现适合你设计挑战的正确设计方法和工具",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: '/placeholder-logo.svg',
+  }
 }
 
 export default function RootLayout({
